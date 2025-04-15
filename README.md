@@ -55,3 +55,8 @@ To make debug firmware, you can change thumb-cluster buttons to something else.
 For example, F1, F2, F3 for left part of the split, and F4, F5, F6 for the other.
 
 That will help to see keypresses on the [key-test.ru](https://key-test.ru).
+
+## TODO
+
+- add Fusion360 project files
+- add real photos
