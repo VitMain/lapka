@@ -56,7 +56,11 @@ For example, F1, F2, F3 for left part of the split, and F4, F5, F6 for the other
 
 That will help to see keypresses on the [key-test.ru](https://key-test.ru).
 
+## Фото / Photos
+
+![](./Images/Lapka-01.jpg)
+![](./Images/Lapka-02.jpg)
+
 ## TODO
 
 - add Fusion360 project files
-- add real photos
