@@ -21,8 +21,11 @@
 | STL        | 3D-модели частей корпуса                              |
 
 Ссылка на актуальную [прошивку ZMK](https://github.com/braindefender/wellum/tree/master/firmware/zmk/wellum36).
+Используйте вариант подключения direct-pin, описанный в `wellum36_left.overlay` и `wellum36_right.overlay`.
+
 Для того, чтобы превратить её в debug-прошивку, надо заменить клавиши на thumb-кластере на какие-нибудь другие.
 Например, F1, F2, F3 для левой половинки сплита и F4, F5, F6 для правой. 
+
 Это позволит увидеть нажатия клавиш на [key-test.ru](https://key-test.ru).
 
 # Lapka
@@ -45,7 +48,10 @@ Wireless ergonomic split keyboard for those who have paws (:
 | KiCad     | KiCad project (schematics, PCB design, components)     |
 | STL       | 3D-models of case parts                                |
 
-Link to the current [ZMK firmware](https://github.com/braindefender/wellum/tree/master/firmware/zmk/wellum36).
+Link to the current [ZMK firmware](https://github.com/braindefender/wellum/tree/master/firmware/zmk/wellum36). 
+Use direct pin layout, described in `wellum36_left.overlay` and `wellum36_right.overlay`.
+
 To make debug firmware, you can change thumb-cluster buttons to something else.
 For example, F1, F2, F3 for left part of the split, and F4, F5, F6 for the other.
+
 That will help to see keypresses on the [key-test.ru](https://key-test.ru).
