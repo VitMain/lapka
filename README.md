@@ -35,6 +35,7 @@
 - Добавлена поддержка Choc v1
 - Изменена разметка пинов
 - Обновлена шелкография, логотип перенесён на Cu слой
+- Добавлен проект Fusion 360
 
 ### v1
 - Первый релиз. Только для Choc v2
@@ -74,6 +75,7 @@ That will help to see keypresses on the [key-test.ru](https://key-test.ru).
 - Added support for Choc v1
 - Changed pin layout
 - Updated silk-screen, moved logo to Cu layer
+- Added Fusion 360 project
 
 ### v1
 - Initial release. Only for Choc v2
