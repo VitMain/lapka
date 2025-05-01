@@ -1,4 +1,4 @@
-![](./Images/Lapka.png)
+![](./Assets/Lapka.png)
 
 # Лапка
 
@@ -80,5 +80,5 @@ That will help to see keypresses on the [key-test.ru](https://key-test.ru).
 
 ## Фото / Photos
 
-![](./Images/Lapka-01.jpg)
-![](./Images/Lapka-02.jpg)
+![](./Assets/Lapka-01.jpg)
+![](./Assets/Lapka-02.jpg)
