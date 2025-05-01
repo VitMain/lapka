@@ -34,7 +34,7 @@
 ### v2
 - Добавлена поддержка Choc v1
 - Изменена разметка пинов
-- Обновлена шелкография
+- Обновлена шелкография, логотип перенесён на Cu слой
 
 ### v1
 - Первый релиз. Только для Choc v2
@@ -73,7 +73,7 @@ That will help to see keypresses on the [key-test.ru](https://key-test.ru).
 ### v2
 - Added support for Choc v1
 - Changed pin layout
-- Updated silk-screen
+- Updated silk-screen, moved logo to Cu layer
 
 ### v1
 - Initial release. Only for Choc v2
