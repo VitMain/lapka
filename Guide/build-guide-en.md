@@ -16,7 +16,7 @@
 
 4. Order or print keycaps. This keyboard use non-standard keycaps that have Choc-spacing (18×17 instead of 19×19 on MX) and MX stem simultaneously (to be compatible with Choc v2 switches). You can use [KLP Lame](https://github.com/braindefender/KLP-Lame-Keycaps) or any other keycaps that has those properties.
 
-5. There are two long PLS pin headers that come with SuperMini. You should remove pins that colored RED (according to [pin layout](./pin_layout.png) image). They are not meant to be soldered!
+5. There are two long PLS pin headers that come with SuperMini. You should remove pins that colored RED (according to [pin layout](./pin_layout_v2.png) image). They are not meant to be soldered!
 
 6. To determine the right height for pin headers, detach black plastic pieces from short pin headers and attach them onto the long ones.
 
