@@ -21,8 +21,11 @@
 |      KiCad | Проект KiCad (схема, плата, компоненты)               |
 |        STL | 3D-модели частей корпуса                              |
 
-Ссылка на актуальную [прошивку ZMK](https://github.com/braindefender/wellum/tree/master/firmware/zmk/wellum36).
-Используйте вариант подключения direct-pin, описанный в `wellum36_left.overlay` и `wellum36_right.overlay`.
+Ссылка на актуальную [прошивку ZMK](https://github.com/braindefender/lapka-zmk-firmware).
+Используйте вариант подключения direct-pin, описанный в `lapka_wellum36_left.overlay` и `lapka_wellum36_right.overlay`.
+
+Откройте GitHub Actions и найдите последний успешно собранный билд ветки `lapka-36`.
+В нём будет артефакт сборки `firmware.zip`, который содержит все нужные для прошивки файлы.
 
 Для того, чтобы превратить её в debug-прошивку, надо заменить клавиши на thumb-кластере на какие-нибудь другие.
 Например, F1, F2, F3 для левой половинки сплита и F4, F5, F6 для правой.
@@ -30,6 +33,9 @@
 Это позволит увидеть нажатия клавиш на [key-test.ru](https://key-test.ru).
 
 ## История изменений
+
+### v2.1
+- Изменена ссылка на репозиторий прошивки ZMK
 
 ### v2
 - Добавлена поддержка Choc v1
@@ -61,8 +67,11 @@ Wireless ergonomic split keyboard for those who have paws (:
 |     KiCad | KiCad project (schematics, PCB design, components)     |
 |       STL | 3D-models of case parts                                |
 
-Link to the current [ZMK firmware](https://github.com/braindefender/wellum/tree/master/firmware/zmk/wellum36).
-Use direct pin layout, described in `wellum36_left.overlay` and `wellum36_right.overlay`.
+Link to the current [ZMK firmware](https://github.com/braindefender/lapka-zmk-firmware).
+Use direct pin layout, described in `lapka_wellum36_left.overlay` and `lapka_wellum36_right.overlay`.
+
+Open GitHub Actions and find latest successful build of branch `lapka-36`.
+In that build you'll find artifact `firmware.zip`, which contain all the neccessary firmware files.
 
 To make debug firmware, you can change thumb-cluster buttons to something else.
 For example, F1, F2, F3 for left part of the split, and F4, F5, F6 for the other.
@@ -70,6 +79,9 @@ For example, F1, F2, F3 for left part of the split, and F4, F5, F6 for the other
 That will help to see keypresses on the [key-test.ru](https://key-test.ru).
 
 ## Changelog
+
+### v2.1
+- Changed link to ZMK Firmware repo
 
 ### v2
 - Added support for Choc v1
