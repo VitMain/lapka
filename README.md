@@ -23,7 +23,7 @@
 |      KiCad | Проект KiCad (схема, плата, компоненты)               |
 |        STL | 3D-модели частей корпуса                              |
 
-Ссылка на актуальную [прошивку ZMK](https://github.com/braindefender/lapka-zmk-firmware).
+Ссылка на актуальную [прошивку ZMK](https://github.com/braindefender/lapka-zmk-config).
 Используйте вариант подключения direct-pin, описанный в `lapka_wellum36_left.overlay` и `lapka_wellum36_right.overlay`.
 
 Откройте GitHub Actions и найдите последний успешно собранный билд ветки `lapka-36`.
@@ -69,7 +69,7 @@ Wireless ergonomic split keyboard for those who have paws (:
 |     KiCad | KiCad project (schematics, PCB design, components)     |
 |       STL | 3D-models of case parts                                |
 
-Link to the current [ZMK firmware](https://github.com/braindefender/lapka-zmk-firmware).
+Link to the current [ZMK firmware](https://github.com/braindefender/lapka-zmk-config).
 Use direct pin layout, described in `lapka_wellum36_left.overlay` and `lapka_wellum36_right.overlay`.
 
 Open GitHub Actions and find latest successful build of branch `lapka-36`.
