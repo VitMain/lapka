@@ -96,5 +96,17 @@ That will help to see keypresses on the [key-test.ru](https://key-test.ru).
 
 ## Фото / Photos
 
+### Original
+
 ![](./Assets/Lapka-01.jpg)
 ![](./Assets/Lapka-02.jpg)
+
+### From awesome people
+
+![](./Assets/photo_@f1dell.jpg)
+
+> by [Макс / f1dell](https://t.me/f1dell)
+
+![](./Assets/photo_@pravets_IT.jpg)
+
+> by [Иосиф Правец](https://t.me/pravets_IT)
