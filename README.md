@@ -23,18 +23,27 @@
 |      KiCad | Проект KiCad (схема, плата, компоненты)               |
 |        STL | 3D-модели частей корпуса                              |
 
-Ссылка на актуальную [прошивку ZMK](https://github.com/braindefender/lapka-zmk-config).
+Ссылки на актуальные прошивки:
+- [ZMK](https://github.com/braindefender/lapka-zmk-config)
+- [RMK](https://github.com/braindefender/lapka-rmk-config)
+
+## RMK
+
+Следуйте инструкциям в README.md репозитория с RMK прошивкой.
+
+## ZMK
+
 Используйте вариант подключения direct-pin, описанный в `lapka_wellum36_left.overlay` и `lapka_wellum36_right.overlay`.
 
 Откройте GitHub Actions и найдите последний успешно собранный билд ветки `lapka-36`.
 В нём будет артефакт сборки `firmware.zip`, который содержит все нужные для прошивки файлы.
 
-Для того, чтобы превратить её в debug-прошивку, надо заменить клавиши на thumb-кластере на какие-нибудь другие.
-Например, F1, F2, F3 для левой половинки сплита и F4, F5, F6 для правой.
-
-Это позволит увидеть нажатия клавиш на [key-test.ru](https://key-test.ru).
+Тестовая прошивка расположена в ветке `lapka-36-test`. В ней всего один слой и клавиши на тамб-кластере заменены на F1-F6. Это позволит увидеть нажатия клавиш на [key-test.ru](https://key-test.ru).
 
 ## История изменений
+
+### v2.2
+- Добавлена ссылка на репозиторий прошивки RMK
 
 ### v2.1
 - Изменена ссылка на репозиторий прошивки ZMK
@@ -69,18 +78,27 @@ Wireless ergonomic split keyboard for those who have paws (:
 |     KiCad | KiCad project (schematics, PCB design, components)     |
 |       STL | 3D-models of case parts                                |
 
-Link to the current [ZMK firmware](https://github.com/braindefender/lapka-zmk-config).
+Links to the current firmwares:
+- [ZMK](https://github.com/braindefender/lapka-zmk-config).
+- [RMK](https://github.com/braindefender/lapka-rmk-config).
+
+## RMK
+
+Follow the instructions in the README.md file of the RMK firmware repository.
+
+## ZMK
+
 Use direct pin layout, described in `lapka_wellum36_left.overlay` and `lapka_wellum36_right.overlay`.
 
 Open GitHub Actions and find latest successful build of branch `lapka-36`.
 In that build you'll find artifact `firmware.zip`, which contain all the neccessary firmware files.
 
-To make debug firmware, you can change thumb-cluster buttons to something else.
-For example, F1, F2, F3 for left part of the split, and F4, F5, F6 for the other.
-
-That will help to see keypresses on the [key-test.ru](https://key-test.ru).
+Test firmware is located in branch `lapka-36-test`. There are single layer with F1-F6 keys on the thumb-cluster. That will help to see keypresses on the [key-test.ru](https://key-test.ru).
 
 ## Changelog
+
+### v2.2
+- Added link to RMK Firmware repo
 
 ### v2.1
 - Changed link to ZMK Firmware repo
